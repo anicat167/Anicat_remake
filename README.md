@@ -1,5 +1,5 @@
 # Anicat_remake
-**This a remake of Anicat repo so I can easily manage on this project**
+**This is a remake of Anicat repo so I can easily manage on this project**
 
 **After this project final I will upload all files to the main Anicat repo**
 
