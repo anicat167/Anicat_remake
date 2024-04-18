@@ -4,18 +4,33 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--   GOOGLE CSS   -->
+
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+
+        <!--   MY CSS   -->
+
         <link rel="stylesheet" href="CSS/style.css">
         <link rel="stylesheet" href="Fonts/fonts.css">
+
+        <!--   Javascript   -->
+
+        <script src="Javascript/script.js"></script>
+
+        <!--   TITLE   -->
+
         <title>Anicat</title>
+
     </head>
 
     <body>
         <div class="page_wrapper">
 
-
+<!--                                       HEADER                                        -->
 
             <header>
-                    <img class="navbar_brand" src="images/Website_logo.png" alt="logo">
+                    <img class="navbar_brand" src="images/Logo/Website_logo.png" alt="logo">
                 <nav>
                     <ul class="nav_menu">
                         <li class="nav_li">
@@ -43,13 +58,638 @@
             </header>
 
 
+<!--                                       SECTION                                        -->
 
             <div class="main_content">
                 <section>
+                    <form action="" method="get" class="search-bar">
+                        <div class="search center">
+                            <span class="search-icon material-symbols-outlined" >search</span>
+                            <input type="search" id="search-input" name="search-bar" class="search-input" placeholder="Search">
+                        </div>
+                    </form>
+                    <div class="filter-buttons">
+                      <label for="filter">Filter</label>
+                      <select name="filter" id="filter">
+                        <option value="Default" selected></option>
+                        <option value="CS" class="CS">Current Season</option>
+                        <option value="AT" class="AT">All Time</option>
+                      </select>
+                    </div>
+                    <div class="card-container" id="card-container">
+                        <div class="current-season">
+                          <h1 class="current-season-title">Current Season</h1>
+                          
+                          <div class="cards">
+                            <div class="card">
+                              <p>One Piece</p>
+                              <a href="/Anime/1/One Piece.html"><img src="/Images/Anime-poster/One Piece.png" alt=""></a>
+                            </div>
 
+                            <div class="card">
+                              <p>Wind Breaker</p>
+                              <a href="/Anime/2/"><img src="/Images/Anime-poster/Wind Breaker.png" alt=""></a>
+                            </div>
+
+                            <div class="card">
+                              <p>Third season of Kono Subarashii Sekai ni Shukufuku wo!</p>
+                              <a href="/Anime/3/"><img src="/Images/Anime-poster/Kono Subarashii Sekai ni Shukufuku wo! 3.png" alt=""></a>
+                            </div>
+
+                            <div class="card">
+                              <p>Third season of Tensei shitara Slime Datta Ken.</p>
+                              <a href="/Anime/4/"><img src="/Images/Anime-poster/Tensei shitara Slime Datta Ken 3rd Season.png" alt=""></a>
+                            </div>
+
+                            <div class="card">
+                              <p>Boku no Hero Academia 7th Season</p>
+                              <a href="/Anime/5/"><img src="/Images/Anime-poster/Boku no Hero Academia 7th Season.png" alt=""></a>
+                            </div>
+                            <div class="card">
+                              <p>Kimetsu no Yaiba: Hashira Geiko-hen</p>
+                              <a href="/Anime/6/"><img src="/Images/Anime-poster/Kimetsu no Yaiba Hashira Geiko-hen.png" alt=""></a>
+                            </div>
+
+                            <div class="card">
+                              <p>Mushoku Tensei II: Isekai Ittara Honki Dasu Part 2</p>
+                              <a href="/Anime/7/"><img src="/Images/Anime-poster/Mushoku Tensei II Isekai Ittara Honki Dasu Part 2.png" alt=""></a>
+                            </div>
+
+                            <div class="card">
+                              <p>Kaijuu 8-gou</p>
+                              <a href="/Anime/8/"><img src="/Images/Anime-poster/Kaijuu 8-gou.png" alt=""></a>
+                            </div>
+                          </div>
+                            
+                          <div class="cards">
+                            <div class="card">
+                              <p>Maou Gakuin no Futekigousha II: Shijou Saikyou no Maou no Shiso</p>
+                              <a href="/Anime/9/"><img src="/Images/Anime-poster/Maou Gakuin no Futekigousha II Shijou Saikyou no Maou no Shiso.png" alt=""></a>
+                            </div>
+
+                            <div class="card">
+                              <p>Ookami to Koushinryou: Merchant Meets the Wise Wolf</p>
+                              <a href="/Anime/10/"><img src="/Images/Anime-poster/Ookami to Koushinryou Merchant Meets the Wise Wolf.png" alt=""></a>
+                            </div>
+                          
+
+                            <div class="card">
+                              <p>Mahouka Koukou no Rettousei 3rd Season</p>
+                              <a href="/Anime/11/"><img src="/Images/Anime-poster/Mahouka Koukou no Rettousei 3rd Season.png" alt=""></a>
+                            </div>
+
+                            <div class="card">
+                              <p>Date A Live V</p>
+                              <a href="/Anime/12/"><img src="/Images/Anime-poster/Date A Live V.png" alt=""></a>
+                            </div>
+
+                            <div class="card">
+                              <p>Maou no Ore ga Dorei Elf wo Yome ni Shitanda ga, Dou Medereba Ii?</p>
+                              <a href="/Anime/13/"><img src="/Images/Anime-poster/Maou no Ore ga Dorei Elf wo Yome ni Shitanda ga, Dou Medereba Ii.png" alt=""></a>
+                            </div>
+
+                            <div class="card">
+                              <p>Hananoi-kun to Koi no Yamai</p>
+                              <a href="/Anime/14/"><img src="/Images/Anime-poster/Hananoi-kun to Koi no Yamai.png" alt=""></a>
+                            </div>
+
+                            <div class="card">
+                              <p>Tensei shitara Dainana Ouji Datta node, Kimama ni Majutsu wo Kiwamemasu</p>
+                              <a href="/Anime/15/"><img src="/Images/Anime-poster/Tensei shitara Dainana Ouji Datta node, Kimama ni Majutsu wo Kiwamemasu.png" alt=""></a>
+                            </div>
+
+                            <div class="card">
+                              <p>Jiisan Baasan Wakagaeru</p>
+                              <a href="/Anime/16/"><img src="/Images/Anime-poster/Jiisan Baasan Wakagaeru.png" alt=""></a>
+                            </div>
+                          </div>
+                          <div class="cards">  
+                            <div class="card">
+                              <p>Sentai Daishikkaku</p>
+                              <a href="/Anime/17/"><img src="/Images/Anime-poster/Sentai Daishikkaku.png" alt=""></a>
+                            </div>
+
+                            <div class="card">
+                              <p>Unnamed Memory</p>
+                              <a href="/Anime/18/"><img src="/Images/Anime-poster/Unnamed Memory.png" alt=""></a>
+                            </div>
+
+                            <div class="card">
+                              <p>Yuru Camp△ Season 3</p>
+                              <a href="/Anime/19/"><img src="/Images/Anime-poster/Yuru Camp Season 3.png" alt=""></a>
+                            </div>
+
+                            <div class="card">
+                              <p>Bartender: Kami no Glass</p>
+                              <a href="/Anime/20/"><img src="/Images/Anime-poster/Bartender Kami no Glass.png" alt=""></a>
+                            </div>
+
+                            <div class="card">
+                              <p>Re:Monster</p>
+                              <a href="/Anime/21/"><img src="/Images/Anime-poster/Re Monster.png" alt=""></a>
+                            </div>
+
+                            <div class="card">
+                              <p>Sasayaku You ni Koi wo Utau</p>
+                              <a href="/Anime/22/"><img src="/Images/Anime-poster/Sasayaku You ni Koi wo Utau.png" alt=""></a>
+                            </div>
+
+                            <div class="card">
+                              <p>Lv2 kara Cheat datta Motoyuusha Kouho no Mattari Isekai Life</p>
+                              <a href="/Anime/23/"><img src="/Images/Anime-poster/Lv2 kara Cheat datta Motoyuusha Kouho no Mattari Isekai Life.png" alt=""></a>
+                            </div>
+
+                            <div class="card">
+                              <p>Yozakura-san Chi no Daisakusen</p>
+                              <a href="/Anime/24/"><img src="/Images/Anime-poster/Yozakura-san Chi no Daisakusen.png" alt=""></a>
+                            </div>
+                          </div>
+                          <div class="cards">
+
+                            <div class="card">
+                              <p>Kami wa Game ni Ueteiru.</p>
+                              <a href="/Anime/25/"><img src="/Images/Anime-poster/Kami wa Game ni Ueteiru.png" alt=""></a>
+                            </div>
+
+                            <div class="card">
+                              <p>Hibike! Euphonium 3</p>
+                              <a href="/Anime/26/"><img src="/Images/Anime-poster/Hibike! Euphonium 3.png" alt=""></a>
+                            </div>
+
+                            <div class="card">
+                              <p>Kuroshitsuji: Kishuku Gakkou-hen</p>
+                              <a href="/Anime/27/"><img src="/Images/Anime-poster/Kuroshitsuji Kishuku Gakkou-hen.png" alt=""></a>
+                            </div>
+
+                            <div class="card">
+                              <p>Tensei Kizoku, Kantei Skill de Nariagaru</p>
+                              <a href="/Anime/28/"><img src="/Images/Anime-poster/Tensei Kizoku, Kantei Skill de Nariagaru.png" alt=""></a>
+                            </div>
+
+                            <div class="card">
+                              <p>Yoru no Kurage wa Oyogenai</p>
+                              <a href="/Anime/29/"><img src="/Images/Anime-poster/Yoru no Kurage wa Oyogenai.png" alt=""></a>
+                            </div>
+
+                            <div class="card">
+                              <p>Dekisokonai to Yobareta Motoeiyuu wa Jikka kara Tsuihou sareta node Sukikatte ni Ikiru Koto ni Shita</p>
+                              <a href="/Anime/30/"><img src="/Images/Anime-poster/Dekisokonai to Yobareta Motoeiyuu wa Jikka kara Tsuihou sareta node .png" alt=""></a>
+                            </div>
+
+                            <div class="card">
+                              <p>Kaii to Otome to Kamikakushi</p>
+                              <a href="/Anime/31/"><img src="/Images/Anime-poster/Kaii to Otome to Kamikakushi.png" alt=""></a>
+                            </div>
+
+                            <div class="card">
+                              <p>Blue Archive the Animation</p>
+                              <a href="/Anime/32/"><img src="/Images/Anime-poster/Blue Archive the Animation.png" alt=""></a>
+                            </div>
+                          </div>
+                          <div class="cards">
+
+                            <div class="card">
+                              <p>One Room, Hiatari Futsuu, Tenshi-tsuki.</p>
+                              <a href="/Anime/33/"><img src="/Images/Anime-poster/One Room, Hiatari Futsuu, Tenshi-tsuki..png" alt=""></a>
+                            </div>
+
+                            <div class="card">
+                              <p>The New Gate</p>
+                              <a href="/Anime/34/"><img src="/Images/Anime-poster/The New Gate.png" alt=""></a>
+                            </div>
+
+                            <div class="card">
+                              <p>Shinigami Bocchan to Kuro Maid 3rd Season</p>
+                              <a href="/Anime/35/"><img src="/Images/Anime-poster/Shinigami Bocchan to Kuro Maid 3rd Season.png" alt=""></a>
+                            </div>
+
+                            <div class="card">
+                              <p>Shuumatsu Train Doko e Iku?</p>
+                              <a href="/Anime/36/"><img src="/Images/Anime-poster/Shuumatsu Train Doko e Iku.png" alt=""></a>
+                            </div>
+
+                            <div class="card">
+                              <p>Seiyuu Radio no Uraomote</p>
+                              <a href="/Anime/37/"><img src="/Images/Anime-poster/Seiyuu Radio no Uraomote.png" alt=""></a>
+                            </div>
+
+                            <div class="card">
+                              <p>The Fable</p>
+                              <a href="/Anime/38/"><img src="/Images/Anime-poster/The Fable.png" alt=""></a>
+                            </div>
+
+                            <div class="card">
+                              <p>Henjin no Salad Bowl</p>
+                              <a href="/Anime/39/"><img src="/Images/Anime-poster/Henjin no Salad Bowl.png" alt=""></a>
+                            </div>
+
+                            <div class="card">
+                              <p>Girls Band Cry</p>
+                              <a href="/Anime/40/"><img src="/Images/Anime-poster/Girls Band Cry.png" alt=""></a>
+                            </div>
+                          </div>
+                          <div class="cards">
+
+                            <div class="card">
+                              <p>Kenka Dokugaku</p>
+                              <a href="/Anime/41/"><img src="/Images/Anime-poster/Kenka Dokugaku.png" alt=""></a>
+                            </div>
+
+                            <div class="card">
+                              <p>Vampire Dormitory</p>
+                              <a href="/Anime/42/"><img src="/Images/Anime-poster/Vampire Dormitory.png" alt=""></a>
+                            </div>
+
+                            <div class="card">
+                              <p>Tadaima, Okaeri</p>
+                              <a href="/Anime/43/"><img src="/Images/Anime-poster/Tadaima, Okaeri.png" alt=""></a>
+                            </div>
+
+                            <div class="card">
+                              <p>Astro Note</p>
+                              <a href="/Anime/44/"><img src="/Images/Anime-poster/Astro Note.png" alt=""></a>
+                            </div>
+
+                            <div class="card">
+                              <p>Boukyaku Battery (TV)</p>
+                              <a href="/Anime/45/"><img src="/Images/Anime-poster/Boukyaku Battery (TV).png" alt=""></a>
+                            </div>
+
+                            <div class="card">
+                              <p>Highspeed Etoile</p>
+                              <a href="/Anime/46/"><img src="/Images/Anime-poster/Highspeed Etoile.png" alt=""></a>
+                            </div>
+
+                            <div class="card">
+                              <p>Tonari no Youkai-san</p>
+                              <a href="/Anime/47/"><img src="/Images/Anime-poster/Tonari no Youkai-san.png" alt=""></a>
+                            </div>
+
+                            <div class="card">
+                              <p>Karasu wa Aruji wo Erabanai</p>
+                              <a href="/Anime/48/"><img src="/Images/Anime-poster/Karasu wa Aruji wo Erabanai.png" alt=""></a>
+                            </div>
+                          </div>
+                          <div class="cards">
+
+                            <div class="card">
+                              <p>Touken Ranbu Kai: Kyoden Moyuru Honnouji</p>
+                              <a href="/Anime/49/"><img src="/Images/Anime-poster/Touken Ranbu Kai Kyoden Moyuru Honnouji.png" alt=""></a>
+                            </div>
+
+                            <div class="card">
+                              <p>The iDOLM@STER Shiny Colors</p>
+                              <a href="/Anime/50/"><img src="/Images/Anime-poster/The iDOLMASTER Shiny Colors.png" alt=""></a>
+                            </div>
+
+                            <div class="card">
+                              <p>Rinkai!</p>
+                              <a href="/Anime/51/"><img src="/Images/Anime-poster/Rinkai!.png" alt=""></a>
+                            </div>
+
+                            <div class="card">
+                              <p>Ooi! Tonbo</p>
+                              <a href="/Anime/52/"><img src="/Images/Anime-poster/Ooi! Tonbo.png" alt=""></a>
+                            </div>
+
+                            <div class="card">
+                              <p>Nijiyon Animation 2</p>
+                              <a href="/Anime/53/"><img src="/Images/Anime-poster/Nijiyon Animation 2.png" alt=""></a>
+                            </div>
+
+                            <div class="card">
+                              <p>Himitsu no AiPri</p>
+                              <a href="/Anime/54/"><img src="/Images/Anime-poster/Himitsu no AiPri.png" alt=""></a>
+                            </div>
+
+                            <div class="card">
+                              <p>Shadowverse Flame: Arc-hen</p>
+                              <a href="/Anime/55/"><img src="/Images/Anime-poster/Shadowverse Flame Arc-hen.png" alt=""></a>
+                            </div>
+
+                            <div class="card">
+                              <p>Shibuya♡Hachi</p>
+                              <a href="/Anime/56/"><img src="/Images/Anime-poster/Shibuya Hachi.png" alt=""></a>
+                            </div>
+                          </div>
+                          <div class="cards">
+
+                            <div class="card">
+                              <p>YouTuNya 2nd Season</p>
+                              <a href="/Anime/57/"><img src="/Images/Anime-poster/YouTuNya 2nd Season.png" alt=""></a>
+                            </div>
+
+                            <div class="card">
+                              <p>Ageo to Tim</p>
+                              <a href="/Anime/58/"><img src="/Images/Anime-poster/Ageo to Tim.png" alt=""></a>
+                            </div>
+
+                            <div class="card">
+                              <p>Meitantei Conan</p>
+                              <a href="/Anime/59/"><img src="/Images/Anime-poster/Meitantei Conan.png" alt=""></a>
+                            </div>
+
+                            <div class="card">
+                              <p>Dungeon Meshi</p>
+                              <a href="/Anime/60/"><img src="/Images/Anime-poster/Dungeon Meshi.png" alt=""></a>
+                            </div>
+
+                            <div class="card">
+                              <p>Tsuki ga Michibiku Isekai Douchuu 2nd Season</p>
+                              <a href="/Anime/61/"><img src="/Images/Anime-poster/Tsuki ga Michibiku Isekai Douchuu 2nd Season.png" alt=""></a>
+                            </div>
+
+                            <div class="card">
+                              <p>Ninja Kamui</p>
+                              <a href="/Anime/62/"><img src="/Images/Anime-poster/Ninja Kamui.png" alt=""></a>
+                            </div>
+
+                            <div class="card">
+                              <p>Crayon Shin-chan</p>
+                              <a href="/Anime/63/"><img src="/Images/Anime-poster/Crayon Shin-chan.png" alt=""></a>
+                            </div>
+
+                            <div class="card">
+                              <p>Urusei Yatsura (2022) 2nd Season</p>
+                              <a href="/Anime/64/"><img src="/Images/Anime-poster/Urusei Yatsura (2022) 2nd Season.png" alt=""></a>
+                            </div>
+                          </div>
+                          <div class="cards">
+
+                            <div class="card">
+                              <p>Captain Tsubasa Season 2: Junior Youth-hen</p>
+                              <a href="/Anime/65/"><img src="/Images/Anime-poster/Captain Tsubasa Season 2 Junior Youth-hen.png" alt=""></a>
+                            </div>
+
+                            <div class="card">
+                              <p>Sazae-san</p>
+                              <a href="/Anime/66/"><img src="/Images/Anime-poster/Sazae-san.png" alt=""></a>
+                            </div>
+
+                            <div class="card">
+                              <p>Chibi Maruko-chan (1995)</p>
+                              <a href="/Anime/67/"><img src="/Images/Anime-poster/Chibi Maruko-chan (1995).png" alt=""></a>
+                            </div>
+
+                            <div class="card">
+                              <p>Yu☆Gi☆Oh! Go Rush!!</p>
+                              <a href="/Anime/68/"><img src="/Images/Anime-poster/YuGiOh! Go Rush!!.png" alt=""></a>
+                            </div>
+
+                            <div class="card">
+                              <p>Tousouchuu: Great Mission</p>
+                              <a href="/Anime/69/"><img src="/Images/Anime-poster/Tousouchuu Great Mission.png" alt=""></a>
+                            </div>
+
+                            <div class="card">
+                              <p>Wonderful Precure!</p>
+                              <a href="/Anime/70/"><img src="/Images/Anime-poster/Wonderful Precure!.png" alt=""></a>
+                            </div>
+
+                            <div class="card">
+                              <p>Chiikawa</p>
+                              <a href="/Anime/71/"><img src="/Images/Anime-poster/Chiikawa.png" alt=""></a>
+                            </div>
+
+                            <div class="card">
+                              <p>Bonobono (TV 2016)</p>
+                              <a href="/Anime/72/"><img src="/Images/Anime-poster/Bonobono (TV 2016).png" alt=""></a>
+                            </div>
+                          </div>
+                          <div class="cards">
+
+                            <div class="card">
+                              <p>Ninjala (TV)</p>
+                              <a href="/Anime/73/"><img src="/Images/Anime-poster/Ninjala (TV).png" alt=""></a>
+                            </div>
+
+                            <div class="card">
+                              <p>Shikaru Neko</p>
+                              <a href="/Anime/74/"><img src="/Images/Anime-poster/Shikaru Neko.png" alt=""></a>
+                            </div>
+
+                            <div class="card">
+                              <p>Kamiusagi Rope: Warau Asa ni wa Fukuraitaru tte Maji ssuka!?</p>
+                              <a href="/Anime/75/"><img src="/Images/Anime-poster/Kamiusagi Rope Warau Asa ni wa Fukuraitaru... .png" alt=""></a>
+                            </div>
+
+                            <div class="card">
+                              <p>Teikou Penguin</p>
+                              <a href="/Anime/76/"><img src="/Images/Anime-poster/Teikou Penguin.png" alt=""></a>
+                            </div>
+
+                            <div class="card">
+                              <p>Shiawase Haitatsu Taneko</p>
+                              <a href="/Anime/78/"><img src="/Images/Anime-poster/Shiawase Haitatsu Taneko.png" alt=""></a>
+                            </div>
+
+                            <div class="card">
+                              <p>Manul no Yuube</p>
+                              <a href="/Anime/79/"><img src="/Images/Anime-poster/Manul no Yuube.png" alt=""></a>
+                            </div>
+
+                            <div class="card">
+                              <p>Riseman</p>
+                              <a href="/Anime/80/"><img src="/Images/Anime-poster/Riseman.png" alt=""></a>
+                            </div>
+
+                            <div class="card">
+                              <p>Shin Nippon History</p>
+                              <a href="/Anime/81/"><img src="/Images/Anime-poster/Shin Nippon History.png" alt=""></a>
+                            </div>
+
+                            <div class="card">
+                              <p>Shuwawan!</p>
+                              <a href="/Anime/82/"><img src="/Images/Anime-poster/Shuwawan!.png" alt=""></a>
+                            </div>
+
+                            <div class="card">
+                              <p>Youkoso Ninchishou Sekai e</p>
+                              <a href="/Anime/83/"><img src="/Images/Anime-poster/Youkoso Ninchishou Sekai .png" alt=""></a>
+                            </div>
+
+                            <div class="card">
+                              <p>Xin Xiyou Lixian Ji</p>
+                              <a href="/Anime/84/"><img src="/Images/Anime-poster/Xin Xiyou Lixian Ji.png" alt=""></a>
+                            </div>
+
+                            <div class="card">
+                              <p>Sand Land: The Series</p>
+                              <a href="/Anime/85/"><img src="/Images/Anime-poster/Sand Land The Series.png" alt=""></a>
+                            </div>
+
+                            <div class="card">
+                              <p>Hanma Baki vs. Kengan Ashura</p>
+                              <a href="/Anime/86/"><img src="/Images/Anime-poster/Hanma Baki vs. Kengan Ashura.png" alt=""></a>
+                            </div>
+
+                            <div class="card">
+                              <p>Grimm Kumikyoku</p>
+                              <a href="/Anime/87/"><img src="/Images/Anime-poster/Grimm Kumikyoku.png" alt=""></a>
+                            </div>
+
+                            <div class="card">
+                              <p>T.P BON</p>
+                              <a href="/Anime/88/"><img src="/Images/Anime-poster/T.P BON.png" alt=""></a>
+                            </div>
+                          </div>
+                          <div class="cards">
+
+                            <div class="card">
+                              <p>Saint Seiya: Knights of the Zodiac - Battle Sanctuary Part 2</p>
+                              <a href="/Anime/89/"><img src="/Images/Anime-poster/Saint Seiya Knights of the Zodiac - Battle Sanctuary Part 2.png" alt=""></a>
+                            </div>
+
+                            <div class="card">
+                              <p>Jantama Kan!!</p>
+                              <a href="/Anime/90/"><img src="/Images/Anime-poster/Jantama Kan!!.png" alt=""></a>
+                            </div>
+
+                            <div class="card">
+                              <p>Rising Impact</p>
+                              <a href="/Anime/91/"><img src="/Images/Anime-poster/Rising Impact.png" alt=""></a>
+                            </div>
+
+                            <div class="card">
+                              <p>San Xiuzhi Wang</p>
+                              <a href="/Anime/92/"><img src="/Images/Anime-poster/San Xiuzhi Wang.png" alt=""></a>
+                            </div>
+
+                            <div class="card">
+                              <p>Shen Zhiyi Jiao</p>
+                              <a href="/Anime/93/"><img src="/Images/Anime-poster/Shen Zhiyi Jiao.png" alt=""></a>
+                            </div>
+
+                            <div class="card">
+                              <p>Yozakura-san Chi no Mini Sakusen</p>
+                              <a href="/Anime/94/"><img src="/Images/Anime-poster/Yozakura-san Chi no Mini Sakusen.png" alt=""></a>
+                            </div>
+
+                            <div class="card">
+                              <p>Rokurou no Daibouken</p>
+                              <a href="/Anime/95/"><img src="/Images/Anime-poster/Rokurou no Daibouken.png" alt=""></a>
+                            </div>
+
+                            <div class="card">
+                              <p>Xuwu Bianjing</p>
+                              <a href="/Anime/96/"><img src="/Images/Anime-poster/Xuwu Bianjing.png" alt=""></a>
+                            </div>
+                          </div>
+                          <div class="cards">
+
+                            <div class="card">
+                              <p>You Shou Yan 3rd Season</p>
+                              <a href="/Anime/97/"><img src="/Images/Anime-poster/You Shou Yan 3rd Season.png" alt=""></a>
+                            </div>
+
+                            <div class="card">
+                              <p>Shin Yaranai ka</p>
+                              <a href="/Anime/98/"><img src="/Images/Anime-poster/Shin Yaranaika.png" alt=""></a>
+                            </div>
+
+                            <div class="card">
+                              <p>Bocchi the Rock! Movie</p>
+                              <a href="/Anime/99/"><img src="/Images/Anime-poster/Bocchi the Rock! Movie.png" alt=""></a>
+                            </div>
+
+                            <div class="card">
+                              <p>Blue Lock: Episode Nagi</p>
+                              <a href="/Anime/100/"><img src="/Images/Anime-poster/Blue Lock Episode Nagi.png" alt=""></a>
+                            </div>
+
+                            <div class="card">
+                              <p>Code Geass: Dakkan no Rozé</p>
+                              <a href="/Anime/101/"><img src="/Images/Anime-poster/Code Geass Dakkan no Rozé.png" alt=""></a>
+                            </div>
+
+                            <div class="card">
+                              <p>Look Back</p>
+                              <a href="/Anime/102/"><img src="/Images/Anime-poster/Look Back.png" alt=""></a>
+                            </div>
+
+                            <div class="card">
+                              <p>Trapezium</p>
+                              <a href="/Anime/103/"><img src="/Images/Anime-poster/Trapezium.png" alt=""></a>
+                            </div>
+
+                            <div class="card">
+                              <p>Uma Musume: Pretty Derby - Shin Jidai no Tobira</p>
+                              <a href="/Anime/104/"><img src="/Images/Anime-poster/Uma Musume Pretty Derby - Shin Jidai no Tobira.png" alt=""></a>
+                            </div>
+                          </div>
+                          <div class="cards">
+
+                            <div class="card">
+                              <p>Meitantei Conan Movie 27: 100-man Dollar no Michishirube</p>
+                              <a href="/Anime/105/"><img src="/Images/Anime-poster/Meitantei Conan Movie 27 100-man Dollar no Michishirube.png" alt=""></a>
+                            </div>
+
+                            <div class="card">
+                              <p>Suki demo Kirai na Amanojaku</p>
+                              <a href="/Anime/106/"><img src="/Images/Anime-poster/Suki demo Kirai na Amanojaku.png" alt=""></a>
+                            </div>
+
+                            <div class="card">
+                              <p>Kuramerukagari</p>
+                              <a href="/Anime/107/"><img src="/Images/Anime-poster/Kuramerukagari.png" alt=""></a>
+                            </div>
+
+                            <div class="card">
+                              <p>Oomuro-ke: Dear Friends</p>
+                              <a href="/Anime/108/"><img src="/Images/Anime-poster/Oomuro-ke Dear Friends.png" alt=""></a>
+                            </div>
+
+                            <div class="card">
+                              <p>Kurayukaba</p>
+                              <a href="/Anime/109/"><img src="/Images/Anime-poster/Kurayukaba.png" alt=""></a>
+                            </div>
+
+                            <div class="card">
+                              <p>Gintama on Theater 2D: Ikkoku Keisei-hen</p>
+                              <a href="/Anime/110/"><img src="/Images/Anime-poster/Gintama on Theater 2D Ikkoku Keisei-hen.png" alt=""></a>
+                            </div>
+
+                            <div class="card">
+                              <p>Rabbits Kingdom the Movie</p>
+                              <a href="/Anime/111/"><img src="/Images/Anime-poster/Rabbits Kingdom the Movie.png" alt=""></a>
+                            </div>
+
+                            <div class="card">
+                              <p>Suu-funkan no Yell wo</p>
+                              <a href="/Anime/112/"><img src="/Images/Anime-poster/Suu-funkan no Yell wo.png" alt=""></a>
+                            </div>
+                          </div>
+                          <div class="cards">
+
+                            <div class="card">
+                              <p>i☆Ris the Movie: Full Energy!!</p>
+                              <a href="/Anime/113/"><img src="/Images/Anime-poster/iRis the Movie Full Energy.png" alt=""></a>
+                            </div>
+
+                            <div class="card">
+                              <p>Yumiui Sepodeul</p>
+                              <a href="/Anime/114/"><img src="/Images/Anime-poster/Yumiui Sepodeul.png" alt=""></a>
+                            </div>
+
+                            <div class="card">
+                              <p>Boku no Hero Academia: Memories</p>
+                              <a href="/Anime/115/"><img src="/Images/Anime-poster/Boku no Hero Academia Memories.png" alt=""></a>
+                            </div>
+                          </div>
+
+                        </div>
+
+                        <div class="all-time">
+
+                            <h1 class="all-time-title">All-time</h1>
+
+                        </div>
+
+                    </div>
                 </section>
             </div>
 
+<!--                                       FOOTER                                        -->
 
                 <div class="whole_footer">
                     <p class="footer_button_title">Website Themes</p>
@@ -63,8 +703,7 @@
                             <hr class="line_footer" width="1" size="20">
                             <a class="footer_link" href="mailto:anicat167@gmail.com">Contact</a>
                             <hr class="line_footer" width="1" size="20">
-                            <a class="footer_link" href="https://www.deviantart.com/santian69/gallery">Credits to logo
-                                pattern</a>
+                            <a class="footer_link" href="https://www.deviantart.com/santian69/gallery">Credits to logo pattern</a>
                             <hr class="line_footer" width="1" size="20">
                             <a class="footer_link" href="https://github.com/anicat167">GitHub</a>
                         </div>
@@ -72,9 +711,6 @@
                 </div>
 
 
-
-
-            <script src="Javascript/scripts.js"></script>
     </body>
 
 </html>

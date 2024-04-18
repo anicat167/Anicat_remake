@@ -1,3 +1,19 @@
+/*  GENERAL THINGS  */
+
+* {
+  box-sizing: border-box;
+}
+body,
+html {
+  background-color: whitesmoke;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
+html {
+  height: 100%;
+}
+
 .main_subtitle {
   text-align: center;
 }
@@ -20,7 +36,6 @@
   font-size: 20px;
   margin-left: 15px;
 }
-TODO
 /*ANIME DESCRIPTION*/
 
 .top5_anime_description,
@@ -33,8 +48,6 @@ TODO
   margin-right: auto;
   width: 50%;
 }
-
-TODO
 /*IMAGE & DESCRIPTION*/
 
 .top5_image_description,
@@ -45,4 +58,8 @@ TODO
   display: flex;
   margin: 15px;
   border: 1px solid black;
+}
+.whole_footer {
+  margin: 0;
+  
 }
